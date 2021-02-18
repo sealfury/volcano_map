@@ -35,7 +35,16 @@ for lt, ln, el in zip(lat, lon, elev):
         )
     )
 fg.add_child(
-    folium.GeoJson(data=(open("data/world.json", "r", encoding="utf-8-sig").read()))
+    folium.GeoJson(
+        data=open("data/world.json", "r", encoding="utf-8-sig").read(),
+        style_function=lambda s: {
+            "fillColor": "#b69cff"
+            if s["properties"]["POP2005"] < 10000000
+            else "#98faaa"
+            if s["properties"]["POP2005"] >= 50000000
+            else "#ff455e"
+        },
+    )
 )
 
 map.add_child(fg)
