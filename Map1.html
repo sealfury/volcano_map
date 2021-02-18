@@ -60,7 +60,7 @@
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
   />
   <style>
-    #map_00c7d656dbcb44df9f53950a28b94ffb {
+    #map_c9f51ea925a343a395418ec55ac9c8d1 {
       position: relative;
       width: 100%;
       height: 100%;
@@ -70,13 +70,13 @@
   </style>
 </head>
 <body>
-  <div class="folium-map" id="map_00c7d656dbcb44df9f53950a28b94ffb"></div>
+  <div class="folium-map" id="map_c9f51ea925a343a395418ec55ac9c8d1"></div>
 </body>
 <script>
-  var map_00c7d656dbcb44df9f53950a28b94ffb = L.map(
-    'map_00c7d656dbcb44df9f53950a28b94ffb',
+  var map_c9f51ea925a343a395418ec55ac9c8d1 = L.map(
+    'map_c9f51ea925a343a395418ec55ac9c8d1',
     {
-      center: [64.1477, -21.93274],
+      center: [59.33258, 18.0649],
       crs: L.CRS.EPSG3857,
       zoom: 4,
       zoomControl: true,
@@ -84,7 +84,7 @@
     }
   )
 
-  var tile_layer_e16f1966bf34483dbb400fe1d52eb45d = L.tileLayer(
+  var tile_layer_16c342357d58403691b5f15d5af66283 = L.tileLayer(
     'https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg',
     {
       attribution:
@@ -98,34 +98,1807 @@
       subdomains: 'abc',
       tms: false,
     }
-  ).addTo(map_00c7d656dbcb44df9f53950a28b94ffb)
+  ).addTo(map_c9f51ea925a343a395418ec55ac9c8d1)
 
-  var marker_ee4891c5f49b4ee595f9cf40c58dec45 = L.marker(
-    [64.1477, -21.93274],
+  var feature_group_9b8450531a59465fbd3fb1756e531f69 = L.featureGroup({}).addTo(
+    map_c9f51ea925a343a395418ec55ac9c8d1
+  )
+
+  var marker_02b6df775b374c3aad95c405eac158ef = L.marker(
+    [48.7767982, -121.810997],
     {}
-  ).addTo(map_00c7d656dbcb44df9f53950a28b94ffb)
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
 
-  var icon_65fb51b84068491a82de917bcf9f2b31 = L.AwesomeMarkers.icon({
+  var icon_626d1779ce7a4a2189e4e2e89d18d15b = L.AwesomeMarkers.icon({
     extraClasses: 'fa-rotate-0',
-    icon: 'info-sign',
-    iconColor: 'white',
-    markerColor: 'green',
-    prefix: 'glyphicon',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
   })
-  marker_ee4891c5f49b4ee595f9cf40c58dec45.setIcon(
-    icon_65fb51b84068491a82de917bcf9f2b31
+  marker_02b6df775b374c3aad95c405eac158ef.setIcon(
+    icon_626d1779ce7a4a2189e4e2e89d18d15b
   )
 
-  var popup_f2b9a21f9df7432f83bec5b932c70ec1 = L.popup({ maxWidth: '100%' })
+  var popup_61b4043cb6f344dfbcb2ebcf90145f5f = L.popup({ maxWidth: '100%' })
 
-  var html_435121b474fa483b912447c13fa37101 = $(
-    `<div id="html_435121b474fa483b912447c13fa37101" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  var html_ea87a06bd79a452e8ce8f5c24d6d2e22 = $(
+    `<div id="html_ea87a06bd79a452e8ce8f5c24d6d2e22" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
   )[0]
-  popup_f2b9a21f9df7432f83bec5b932c70ec1.setContent(
-    html_435121b474fa483b912447c13fa37101
+  popup_61b4043cb6f344dfbcb2ebcf90145f5f.setContent(
+    html_ea87a06bd79a452e8ce8f5c24d6d2e22
   )
 
-  marker_ee4891c5f49b4ee595f9cf40c58dec45.bindPopup(
-    popup_f2b9a21f9df7432f83bec5b932c70ec1
+  marker_02b6df775b374c3aad95c405eac158ef.bindPopup(
+    popup_61b4043cb6f344dfbcb2ebcf90145f5f
+  )
+
+  var marker_c722423b3f434028b308979f4b0d01c5 = L.marker(
+    [48.1118011, -121.1110001],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_b2a6d66d257b45eea1db7fc37d510ec0 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_c722423b3f434028b308979f4b0d01c5.setIcon(
+    icon_b2a6d66d257b45eea1db7fc37d510ec0
+  )
+
+  var popup_0ccf052893934cedb87f5aa00f6e2d9e = L.popup({ maxWidth: '100%' })
+
+  var html_b6c5a2291db841cfa7c995a75c921b45 = $(
+    `<div id="html_b6c5a2291db841cfa7c995a75c921b45" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_0ccf052893934cedb87f5aa00f6e2d9e.setContent(
+    html_b6c5a2291db841cfa7c995a75c921b45
+  )
+
+  marker_c722423b3f434028b308979f4b0d01c5.bindPopup(
+    popup_0ccf052893934cedb87f5aa00f6e2d9e
+  )
+
+  var marker_e8fdb770609745c4be834b8e2bab8812 = L.marker(
+    [46.8698006, -121.7509995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_aeb6a695ca794e4a82b98487198262d6 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_e8fdb770609745c4be834b8e2bab8812.setIcon(
+    icon_aeb6a695ca794e4a82b98487198262d6
+  )
+
+  var popup_3478f0c519ac41aa91e6f1d4cc15dce4 = L.popup({ maxWidth: '100%' })
+
+  var html_c4fad5beba1948e7afe6270cbdf549df = $(
+    `<div id="html_c4fad5beba1948e7afe6270cbdf549df" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_3478f0c519ac41aa91e6f1d4cc15dce4.setContent(
+    html_c4fad5beba1948e7afe6270cbdf549df
+  )
+
+  marker_e8fdb770609745c4be834b8e2bab8812.bindPopup(
+    popup_3478f0c519ac41aa91e6f1d4cc15dce4
+  )
+
+  var marker_547193c8898440f58ada775dc4f63525 = L.marker(
+    [46.1997986, -122.1809998],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_9a171fe533bd43eba03bfde0fef67542 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_547193c8898440f58ada775dc4f63525.setIcon(
+    icon_9a171fe533bd43eba03bfde0fef67542
+  )
+
+  var popup_948c21ab43a54b8497f034d8413b017d = L.popup({ maxWidth: '100%' })
+
+  var html_3341cf85c0bc41dc94ee1af962f4adc3 = $(
+    `<div id="html_3341cf85c0bc41dc94ee1af962f4adc3" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_948c21ab43a54b8497f034d8413b017d.setContent(
+    html_3341cf85c0bc41dc94ee1af962f4adc3
+  )
+
+  marker_547193c8898440f58ada775dc4f63525.bindPopup(
+    popup_948c21ab43a54b8497f034d8413b017d
+  )
+
+  var marker_1f7185e0574d4f13b53cbdec800ebb01 = L.marker(
+    [46.2057991, -121.4909973],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_41b079129910450c980ba3ef8c79e95b = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_1f7185e0574d4f13b53cbdec800ebb01.setIcon(
+    icon_41b079129910450c980ba3ef8c79e95b
+  )
+
+  var popup_c4c7a5bcd021411c9d9e5a633b7479b4 = L.popup({ maxWidth: '100%' })
+
+  var html_ccdac8ca4b91457da5c18584559c56da = $(
+    `<div id="html_ccdac8ca4b91457da5c18584559c56da" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_c4c7a5bcd021411c9d9e5a633b7479b4.setContent(
+    html_ccdac8ca4b91457da5c18584559c56da
+  )
+
+  marker_1f7185e0574d4f13b53cbdec800ebb01.bindPopup(
+    popup_c4c7a5bcd021411c9d9e5a633b7479b4
+  )
+
+  var marker_bbcddabb9a2944aba721829dc3ec21c5 = L.marker(
+    [45.8797989, -122.0810013],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_c130c6d68def4a63a41a9162bdfb5b89 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_bbcddabb9a2944aba721829dc3ec21c5.setIcon(
+    icon_c130c6d68def4a63a41a9162bdfb5b89
+  )
+
+  var popup_48a11507e1864722a037048e9429e188 = L.popup({ maxWidth: '100%' })
+
+  var html_980786445b974d23bb1565be54e74088 = $(
+    `<div id="html_980786445b974d23bb1565be54e74088" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_48a11507e1864722a037048e9429e188.setContent(
+    html_980786445b974d23bb1565be54e74088
+  )
+
+  marker_bbcddabb9a2944aba721829dc3ec21c5.bindPopup(
+    popup_48a11507e1864722a037048e9429e188
+  )
+
+  var marker_e20871041a2c483090c9aa513aa7a3e1 = L.marker(
+    [45.9297981, -121.8209991],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_8c9648c05ca64cf2bcb545d21092dd0a = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_e20871041a2c483090c9aa513aa7a3e1.setIcon(
+    icon_8c9648c05ca64cf2bcb545d21092dd0a
+  )
+
+  var popup_54dc00d1170a4745b5c10d8b88ae918a = L.popup({ maxWidth: '100%' })
+
+  var html_1a7fcd89a3f34eceb25ded263d4efc72 = $(
+    `<div id="html_1a7fcd89a3f34eceb25ded263d4efc72" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_54dc00d1170a4745b5c10d8b88ae918a.setContent(
+    html_1a7fcd89a3f34eceb25ded263d4efc72
+  )
+
+  marker_e20871041a2c483090c9aa513aa7a3e1.bindPopup(
+    popup_54dc00d1170a4745b5c10d8b88ae918a
+  )
+
+  var marker_0c8d0e43e0f4458bbf02447feb974841 = L.marker(
+    [45.3737984, -121.6910019],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_deb45fd437734e13868ecd5b62b3fce0 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_0c8d0e43e0f4458bbf02447feb974841.setIcon(
+    icon_deb45fd437734e13868ecd5b62b3fce0
+  )
+
+  var popup_4ef46fafc48145d9ac2dc7fc0c63e172 = L.popup({ maxWidth: '100%' })
+
+  var html_6d15d7269ad24e1bafb2e82b98581a75 = $(
+    `<div id="html_6d15d7269ad24e1bafb2e82b98581a75" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_4ef46fafc48145d9ac2dc7fc0c63e172.setContent(
+    html_6d15d7269ad24e1bafb2e82b98581a75
+  )
+
+  marker_0c8d0e43e0f4458bbf02447feb974841.bindPopup(
+    popup_4ef46fafc48145d9ac2dc7fc0c63e172
+  )
+
+  var marker_0856d3be6a3e4f08bb852d34a7950cff = L.marker(
+    [44.6917992, -121.8010025],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_01a6147ac8eb491f9907618181b10b53 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_0856d3be6a3e4f08bb852d34a7950cff.setIcon(
+    icon_01a6147ac8eb491f9907618181b10b53
+  )
+
+  var popup_506812df7a724d65aec5cadc09bfb385 = L.popup({ maxWidth: '100%' })
+
+  var html_98421c0bf2b0483f9539eb1b39b95fb7 = $(
+    `<div id="html_98421c0bf2b0483f9539eb1b39b95fb7" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_506812df7a724d65aec5cadc09bfb385.setContent(
+    html_98421c0bf2b0483f9539eb1b39b95fb7
+  )
+
+  marker_0856d3be6a3e4f08bb852d34a7950cff.bindPopup(
+    popup_506812df7a724d65aec5cadc09bfb385
+  )
+
+  var marker_79b2b425da5245c8a60b08c5ef5f13e7 = L.marker(
+    [44.4197998, -121.7710037],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_e65df423c7ff4d1dbaca03ea05ea7e69 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_79b2b425da5245c8a60b08c5ef5f13e7.setIcon(
+    icon_e65df423c7ff4d1dbaca03ea05ea7e69
+  )
+
+  var popup_9804c31e46774283ad4f2b8a45c92e35 = L.popup({ maxWidth: '100%' })
+
+  var html_c1d9710199674e3696c59e5e36b4e587 = $(
+    `<div id="html_c1d9710199674e3696c59e5e36b4e587" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_9804c31e46774283ad4f2b8a45c92e35.setContent(
+    html_c1d9710199674e3696c59e5e36b4e587
+  )
+
+  marker_79b2b425da5245c8a60b08c5ef5f13e7.bindPopup(
+    popup_9804c31e46774283ad4f2b8a45c92e35
+  )
+
+  var marker_a6911753417d45c6943e7fcbb51b067a = L.marker(
+    [44.3797989, -121.9309998],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_c5beda92f1814271ac735ef6a0bb75d2 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_a6911753417d45c6943e7fcbb51b067a.setIcon(
+    icon_c5beda92f1814271ac735ef6a0bb75d2
+  )
+
+  var popup_a43392ca5b6c4db19a337cb90a981513 = L.popup({ maxWidth: '100%' })
+
+  var html_15572bbcd2a2435db8df11f08d1e823b = $(
+    `<div id="html_15572bbcd2a2435db8df11f08d1e823b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_a43392ca5b6c4db19a337cb90a981513.setContent(
+    html_15572bbcd2a2435db8df11f08d1e823b
+  )
+
+  marker_a6911753417d45c6943e7fcbb51b067a.bindPopup(
+    popup_a43392ca5b6c4db19a337cb90a981513
+  )
+
+  var marker_00e14c78594445a9b3690b97f6916e7a = L.marker(
+    [44.3317986, -121.8310013],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_a59f8f93fde243a59befeb755cbf7c51 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_00e14c78594445a9b3690b97f6916e7a.setIcon(
+    icon_a59f8f93fde243a59befeb755cbf7c51
+  )
+
+  var popup_651c0e02c4da4553b90cc81723078470 = L.popup({ maxWidth: '100%' })
+
+  var html_346816b197704707b6820d5ae5b22bf9 = $(
+    `<div id="html_346816b197704707b6820d5ae5b22bf9" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_651c0e02c4da4553b90cc81723078470.setContent(
+    html_346816b197704707b6820d5ae5b22bf9
+  )
+
+  marker_00e14c78594445a9b3690b97f6916e7a.bindPopup(
+    popup_651c0e02c4da4553b90cc81723078470
+  )
+
+  var marker_5465f81a132947b0870947370a31dca5 = L.marker(
+    [44.2848015, -121.8410034],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_7569e70ac8a24997b0fe50e27acd0e8c = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_5465f81a132947b0870947370a31dca5.setIcon(
+    icon_7569e70ac8a24997b0fe50e27acd0e8c
+  )
+
+  var popup_185e71262d274ff483b3b3da7debb11c = L.popup({ maxWidth: '100%' })
+
+  var html_274a71c4d89f4133b2cb65e2b376120a = $(
+    `<div id="html_274a71c4d89f4133b2cb65e2b376120a" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_185e71262d274ff483b3b3da7debb11c.setContent(
+    html_274a71c4d89f4133b2cb65e2b376120a
+  )
+
+  marker_5465f81a132947b0870947370a31dca5.bindPopup(
+    popup_185e71262d274ff483b3b3da7debb11c
+  )
+
+  var marker_452a982746244bcfbc65634865aa9736 = L.marker(
+    [44.1697998, -121.7710037],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_050da74a6e7845a08b36be17f0a80426 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_452a982746244bcfbc65634865aa9736.setIcon(
+    icon_050da74a6e7845a08b36be17f0a80426
+  )
+
+  var popup_e2db9ac50f57453b94e3b7cb4bf0eebe = L.popup({ maxWidth: '100%' })
+
+  var html_27af53aa9eed46a094425a515897b755 = $(
+    `<div id="html_27af53aa9eed46a094425a515897b755" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_e2db9ac50f57453b94e3b7cb4bf0eebe.setContent(
+    html_27af53aa9eed46a094425a515897b755
+  )
+
+  marker_452a982746244bcfbc65634865aa9736.bindPopup(
+    popup_e2db9ac50f57453b94e3b7cb4bf0eebe
+  )
+
+  var marker_66152861f8db4d41b504e408006edcbb = L.marker(
+    [44.0998001, -121.7710037],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_269ce84d28af49249317585bca3b4877 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_66152861f8db4d41b504e408006edcbb.setIcon(
+    icon_269ce84d28af49249317585bca3b4877
+  )
+
+  var popup_2c671cef846c4de5a963cea80e16ddce = L.popup({ maxWidth: '100%' })
+
+  var html_fa3091340a60418591d165b8553e76e6 = $(
+    `<div id="html_fa3091340a60418591d165b8553e76e6" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_2c671cef846c4de5a963cea80e16ddce.setContent(
+    html_fa3091340a60418591d165b8553e76e6
+  )
+
+  marker_66152861f8db4d41b504e408006edcbb.bindPopup(
+    popup_2c671cef846c4de5a963cea80e16ddce
+  )
+
+  var marker_5164061441664b70a898a78bc646b18a = L.marker(
+    [43.9788017, -121.6809998],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_ad7adfac990e44339beb4104cdaf393c = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_5164061441664b70a898a78bc646b18a.setIcon(
+    icon_ad7adfac990e44339beb4104cdaf393c
+  )
+
+  var popup_23e1b0d6be2a43bc86cded2732be9235 = L.popup({ maxWidth: '100%' })
+
+  var html_7bb3e319abdb4487a1981d2ed3aa471a = $(
+    `<div id="html_7bb3e319abdb4487a1981d2ed3aa471a" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_23e1b0d6be2a43bc86cded2732be9235.setContent(
+    html_7bb3e319abdb4487a1981d2ed3aa471a
+  )
+
+  marker_5164061441664b70a898a78bc646b18a.bindPopup(
+    popup_23e1b0d6be2a43bc86cded2732be9235
+  )
+
+  var marker_5aabc283dcdb4ea6813be171d3a37902 = L.marker(
+    [43.7218018, -121.2210007],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_3a381359b52c4728a0fc2a941d812d67 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_5aabc283dcdb4ea6813be171d3a37902.setIcon(
+    icon_3a381359b52c4728a0fc2a941d812d67
+  )
+
+  var popup_5a11954795234d119586f4c9bbf6e072 = L.popup({ maxWidth: '100%' })
+
+  var html_20cbfff79b074ff7b1b4d8ad0c7a7f6a = $(
+    `<div id="html_20cbfff79b074ff7b1b4d8ad0c7a7f6a" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_5a11954795234d119586f4c9bbf6e072.setContent(
+    html_20cbfff79b074ff7b1b4d8ad0c7a7f6a
+  )
+
+  marker_5aabc283dcdb4ea6813be171d3a37902.bindPopup(
+    popup_5a11954795234d119586f4c9bbf6e072
+  )
+
+  var marker_c0898a8679a34200a0902f8e2d2776f8 = L.marker(
+    [43.5698013, -121.8209991],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_207b0cb45b564589b2c8f1b4e36bdbb4 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_c0898a8679a34200a0902f8e2d2776f8.setIcon(
+    icon_207b0cb45b564589b2c8f1b4e36bdbb4
+  )
+
+  var popup_2783330d2aec401880cc537bab3f5f9b = L.popup({ maxWidth: '100%' })
+
+  var html_029c1b9b98de4e35bd376b9580cde9d8 = $(
+    `<div id="html_029c1b9b98de4e35bd376b9580cde9d8" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_2783330d2aec401880cc537bab3f5f9b.setContent(
+    html_029c1b9b98de4e35bd376b9580cde9d8
+  )
+
+  marker_c0898a8679a34200a0902f8e2d2776f8.bindPopup(
+    popup_2783330d2aec401880cc537bab3f5f9b
+  )
+
+  var marker_2feb20ea7a7649a2ab383dd4d0be9988 = L.marker(
+    [43.5119019, -120.8610001],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_afcec58867b446b08fdd77888d418599 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_2feb20ea7a7649a2ab383dd4d0be9988.setIcon(
+    icon_afcec58867b446b08fdd77888d418599
+  )
+
+  var popup_fa6bd38c8b514040915677d7f1caafdd = L.popup({ maxWidth: '100%' })
+
+  var html_418eb4b3d6b34f8abf75c93794c269ff = $(
+    `<div id="html_418eb4b3d6b34f8abf75c93794c269ff" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_fa6bd38c8b514040915677d7f1caafdd.setContent(
+    html_418eb4b3d6b34f8abf75c93794c269ff
+  )
+
+  marker_2feb20ea7a7649a2ab383dd4d0be9988.bindPopup(
+    popup_fa6bd38c8b514040915677d7f1caafdd
+  )
+
+  var marker_71774b7ca0b444278c6c02e5678da75a = L.marker(
+    [43.240799, -122.1009979],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_58ea2d745975415ea15dc1debc49d20d = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_71774b7ca0b444278c6c02e5678da75a.setIcon(
+    icon_58ea2d745975415ea15dc1debc49d20d
+  )
+
+  var popup_bbd650e17f0348529064a12cc2f41348 = L.popup({ maxWidth: '100%' })
+
+  var html_89eb2c8b24314facaa531cac7f356076 = $(
+    `<div id="html_89eb2c8b24314facaa531cac7f356076" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_bbd650e17f0348529064a12cc2f41348.setContent(
+    html_89eb2c8b24314facaa531cac7f356076
+  )
+
+  marker_71774b7ca0b444278c6c02e5678da75a.bindPopup(
+    popup_bbd650e17f0348529064a12cc2f41348
+  )
+
+  var marker_7eba668b63354d9084b422c39c5651e1 = L.marker(
+    [43.4719009, -120.7509995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_c676a5eee2f34996baa65002d44c0694 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_7eba668b63354d9084b422c39c5651e1.setIcon(
+    icon_c676a5eee2f34996baa65002d44c0694
+  )
+
+  var popup_9d0fae4493114e8fb2e4631ba04fe46d = L.popup({ maxWidth: '100%' })
+
+  var html_883fd27c3adf459a802556cd7c05062a = $(
+    `<div id="html_883fd27c3adf459a802556cd7c05062a" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_9d0fae4493114e8fb2e4631ba04fe46d.setContent(
+    html_883fd27c3adf459a802556cd7c05062a
+  )
+
+  marker_7eba668b63354d9084b422c39c5651e1.bindPopup(
+    popup_9d0fae4493114e8fb2e4631ba04fe46d
+  )
+
+  var marker_e8e4f4a92f1d48c59b00e74c46971cb6 = L.marker(
+    [43.3609009, -120.6610031],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_d1fe440fbde149c08a4a8101ab83711a = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_e8e4f4a92f1d48c59b00e74c46971cb6.setIcon(
+    icon_d1fe440fbde149c08a4a8101ab83711a
+  )
+
+  var popup_e97223036fc048aa9411b12f4ef4348c = L.popup({ maxWidth: '100%' })
+
+  var html_40e77c3f0ebb4dd0b2d813307160a79a = $(
+    `<div id="html_40e77c3f0ebb4dd0b2d813307160a79a" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_e97223036fc048aa9411b12f4ef4348c.setContent(
+    html_40e77c3f0ebb4dd0b2d813307160a79a
+  )
+
+  marker_e8e4f4a92f1d48c59b00e74c46971cb6.bindPopup(
+    popup_e97223036fc048aa9411b12f4ef4348c
+  )
+
+  var marker_6e4056e331fa471cb277b98b39256549 = L.marker(
+    [42.9299011, -122.1210022],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_cf3628aeb94f4df7991e2f75e93d3f57 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_6e4056e331fa471cb277b98b39256549.setIcon(
+    icon_cf3628aeb94f4df7991e2f75e93d3f57
+  )
+
+  var popup_1a4c6e91ebfc47318a61d1d8aaa0012b = L.popup({ maxWidth: '100%' })
+
+  var html_a09aef7cf5d74275bcdbfe0bda05599d = $(
+    `<div id="html_a09aef7cf5d74275bcdbfe0bda05599d" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_1a4c6e91ebfc47318a61d1d8aaa0012b.setContent(
+    html_a09aef7cf5d74275bcdbfe0bda05599d
+  )
+
+  marker_6e4056e331fa471cb277b98b39256549.bindPopup(
+    popup_1a4c6e91ebfc47318a61d1d8aaa0012b
+  )
+
+  var marker_2f65a6673a864edebe480903f40ad04e = L.marker(
+    [44.4299011, -110.6709976],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_eeeb3d81441548b1aa61db7f23a74ea9 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_2f65a6673a864edebe480903f40ad04e.setIcon(
+    icon_eeeb3d81441548b1aa61db7f23a74ea9
+  )
+
+  var popup_628cf8374d914e988b31d93597c8ffd4 = L.popup({ maxWidth: '100%' })
+
+  var html_a64e984ec85f4cbbaac1cdce20be9adf = $(
+    `<div id="html_a64e984ec85f4cbbaac1cdce20be9adf" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_628cf8374d914e988b31d93597c8ffd4.setContent(
+    html_a64e984ec85f4cbbaac1cdce20be9adf
+  )
+
+  marker_2f65a6673a864edebe480903f40ad04e.bindPopup(
+    popup_628cf8374d914e988b31d93597c8ffd4
+  )
+
+  var marker_a074e35a8a8b4c0d99ce44ac7f7349f6 = L.marker(
+    [43.0998993, -118.7509995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_4dea38a36c4e476297f13af6d7357bab = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_a074e35a8a8b4c0d99ce44ac7f7349f6.setIcon(
+    icon_4dea38a36c4e476297f13af6d7357bab
+  )
+
+  var popup_61349fc4921740e3b1eccbd7670df6cb = L.popup({ maxWidth: '100%' })
+
+  var html_794305033df043d08b21002471f68f76 = $(
+    `<div id="html_794305033df043d08b21002471f68f76" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_61349fc4921740e3b1eccbd7670df6cb.setContent(
+    html_794305033df043d08b21002471f68f76
+  )
+
+  marker_a074e35a8a8b4c0d99ce44ac7f7349f6.bindPopup(
+    popup_61349fc4921740e3b1eccbd7670df6cb
+  )
+
+  var marker_4942d1f1d6584d4a8c887dd995be4fd6 = L.marker(
+    [43.1498985, -117.4710007],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_bc883fe8087448e9826bb27dc097e2dd = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_4942d1f1d6584d4a8c887dd995be4fd6.setIcon(
+    icon_bc883fe8087448e9826bb27dc097e2dd
+  )
+
+  var popup_641d1084d9d0487eaf65929820338432 = L.popup({ maxWidth: '100%' })
+
+  var html_8edbee827ec0412d87a6ed5439ccf3d7 = $(
+    `<div id="html_8edbee827ec0412d87a6ed5439ccf3d7" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_641d1084d9d0487eaf65929820338432.setContent(
+    html_8edbee827ec0412d87a6ed5439ccf3d7
+  )
+
+  marker_4942d1f1d6584d4a8c887dd995be4fd6.bindPopup(
+    popup_641d1084d9d0487eaf65929820338432
+  )
+
+  var marker_76ad24f4299d4a6785ea022301e4b50d = L.marker(
+    [42.9999008, -117.8010025],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_736d2f400c21407d9a8156eb86314358 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_76ad24f4299d4a6785ea022301e4b50d.setIcon(
+    icon_736d2f400c21407d9a8156eb86314358
+  )
+
+  var popup_371c75d6fcc848eba385291e8a26304a = L.popup({ maxWidth: '100%' })
+
+  var html_25b01f50e1ba4030ac15c54f427dcb46 = $(
+    `<div id="html_25b01f50e1ba4030ac15c54f427dcb46" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_371c75d6fcc848eba385291e8a26304a.setContent(
+    html_25b01f50e1ba4030ac15c54f427dcb46
+  )
+
+  marker_76ad24f4299d4a6785ea022301e4b50d.bindPopup(
+    popup_371c75d6fcc848eba385291e8a26304a
+  )
+
+  var marker_de7a72baa88e485f82f3e37ea9e0f336 = L.marker(
+    [43.419899, -113.5009995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_257b3f99c61948339aeabdfe888f6787 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_de7a72baa88e485f82f3e37ea9e0f336.setIcon(
+    icon_257b3f99c61948339aeabdfe888f6787
+  )
+
+  var popup_ea3ba07e5f4d42a0ae2ac320f1152c36 = L.popup({ maxWidth: '100%' })
+
+  var html_4f7d89b7af014e7dac1f05d0d168ba25 = $(
+    `<div id="html_4f7d89b7af014e7dac1f05d0d168ba25" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_ea3ba07e5f4d42a0ae2ac320f1152c36.setContent(
+    html_4f7d89b7af014e7dac1f05d0d168ba25
+  )
+
+  marker_de7a72baa88e485f82f3e37ea9e0f336.bindPopup(
+    popup_ea3ba07e5f4d42a0ae2ac320f1152c36
+  )
+
+  var marker_aed041e877084785a7ac95df1df13c95 = L.marker(
+    [43.4999008, -112.4509964],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_3191f0db485d466e8ff38eb0c2e8a27c = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_aed041e877084785a7ac95df1df13c95.setIcon(
+    icon_3191f0db485d466e8ff38eb0c2e8a27c
+  )
+
+  var popup_8ac972c5eb15450bae82bed34be279d1 = L.popup({ maxWidth: '100%' })
+
+  var html_7f25e5750ee2465e8f46992687e36b71 = $(
+    `<div id="html_7f25e5750ee2465e8f46992687e36b71" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_8ac972c5eb15450bae82bed34be279d1.setContent(
+    html_7f25e5750ee2465e8f46992687e36b71
+  )
+
+  marker_aed041e877084785a7ac95df1df13c95.bindPopup(
+    popup_8ac972c5eb15450bae82bed34be279d1
+  )
+
+  var marker_94c89b52de1c4d74b51e957b54210d8c = L.marker(
+    [43.1799011, -114.3509979],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_29837b6b83f243e49a452e9bcb668238 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_94c89b52de1c4d74b51e957b54210d8c.setIcon(
+    icon_29837b6b83f243e49a452e9bcb668238
+  )
+
+  var popup_82d79137225f4917b051be806ba5d43c = L.popup({ maxWidth: '100%' })
+
+  var html_3da7ecc1ba7448e1bd9f8180a4031701 = $(
+    `<div id="html_3da7ecc1ba7448e1bd9f8180a4031701" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_82d79137225f4917b051be806ba5d43c.setContent(
+    html_3da7ecc1ba7448e1bd9f8180a4031701
+  )
+
+  marker_94c89b52de1c4d74b51e957b54210d8c.bindPopup(
+    popup_82d79137225f4917b051be806ba5d43c
+  )
+
+  var marker_6403e52965264782b62f32fbc5927678 = L.marker(
+    [42.6058998, -117.5810013],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_b4b5a8b11f11406399833db67ddefd06 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_6403e52965264782b62f32fbc5927678.setIcon(
+    icon_b4b5a8b11f11406399833db67ddefd06
+  )
+
+  var popup_98e0a435c43e423abfd8a669344a797b = L.popup({ maxWidth: '100%' })
+
+  var html_54209355ff014e1880709ac9761dbf2c = $(
+    `<div id="html_54209355ff014e1880709ac9761dbf2c" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_98e0a435c43e423abfd8a669344a797b.setContent(
+    html_54209355ff014e1880709ac9761dbf2c
+  )
+
+  marker_6403e52965264782b62f32fbc5927678.bindPopup(
+    popup_98e0a435c43e423abfd8a669344a797b
+  )
+
+  var marker_89331d298b5745a496bc23bdb80fe185 = L.marker(
+    [41.5798988, -121.5709991],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_4cd957aeaaf54f15b3c235895b82d934 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_89331d298b5745a496bc23bdb80fe185.setIcon(
+    icon_4cd957aeaaf54f15b3c235895b82d934
+  )
+
+  var popup_758a04b483b641d2944f1f7939e6c67f = L.popup({ maxWidth: '100%' })
+
+  var html_a48a5e8169c7444d904d4e35a0df0e5c = $(
+    `<div id="html_a48a5e8169c7444d904d4e35a0df0e5c" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_758a04b483b641d2944f1f7939e6c67f.setContent(
+    html_a48a5e8169c7444d904d4e35a0df0e5c
+  )
+
+  marker_89331d298b5745a496bc23bdb80fe185.bindPopup(
+    popup_758a04b483b641d2944f1f7939e6c67f
+  )
+
+  var marker_e0c3886f4b6343a69745fb3101131d17 = L.marker(
+    [42.8799019, -113.2210007],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_de1131fdf4904db983ea6759167386b2 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_e0c3886f4b6343a69745fb3101131d17.setIcon(
+    icon_de1131fdf4904db983ea6759167386b2
+  )
+
+  var popup_67f7b5e2d8094478b94fbe4337196d16 = L.popup({ maxWidth: '100%' })
+
+  var html_1d38f9935a1a45a48204933f5358ecde = $(
+    `<div id="html_1d38f9935a1a45a48204933f5358ecde" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_67f7b5e2d8094478b94fbe4337196d16.setContent(
+    html_1d38f9935a1a45a48204933f5358ecde
+  )
+
+  marker_e0c3886f4b6343a69745fb3101131d17.bindPopup(
+    popup_67f7b5e2d8094478b94fbe4337196d16
+  )
+
+  var marker_86fb6cbc256e4e788c7913780343a707 = L.marker(
+    [41.419899, -122.2009964],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_2a40a9e5afc748b5833bec0317143cb4 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_86fb6cbc256e4e788c7913780343a707.setIcon(
+    icon_2a40a9e5afc748b5833bec0317143cb4
+  )
+
+  var popup_86ac08b4cf944b1bb92c73db586f489b = L.popup({ maxWidth: '100%' })
+
+  var html_dc3232985335412aa64451d5f9077a33 = $(
+    `<div id="html_dc3232985335412aa64451d5f9077a33" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_86ac08b4cf944b1bb92c73db586f489b.setContent(
+    html_dc3232985335412aa64451d5f9077a33
+  )
+
+  marker_86fb6cbc256e4e788c7913780343a707.bindPopup(
+    popup_86ac08b4cf944b1bb92c73db586f489b
+  )
+
+  var marker_507802e9463d4da7a65dc30a756fe0e8 = L.marker(
+    [41.1778984, -121.4410019],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_e76050234fd346cb853743640afa7d28 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_507802e9463d4da7a65dc30a756fe0e8.setIcon(
+    icon_e76050234fd346cb853743640afa7d28
+  )
+
+  var popup_b10055e56a9346eeb38b13fefba145c7 = L.popup({ maxWidth: '100%' })
+
+  var html_daf33786b86749cca6c572b11f456fc3 = $(
+    `<div id="html_daf33786b86749cca6c572b11f456fc3" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_b10055e56a9346eeb38b13fefba145c7.setContent(
+    html_daf33786b86749cca6c572b11f456fc3
+  )
+
+  marker_507802e9463d4da7a65dc30a756fe0e8.bindPopup(
+    popup_b10055e56a9346eeb38b13fefba145c7
+  )
+
+  var marker_b1b001bff2e142f297671f0748c9f126 = L.marker(
+    [40.9548988, -121.3610001],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_464eb8393e634b6585d58e5861cee809 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_b1b001bff2e142f297671f0748c9f126.setIcon(
+    icon_464eb8393e634b6585d58e5861cee809
+  )
+
+  var popup_eb07a6a15bd04c4ab126c871ad273e63 = L.popup({ maxWidth: '100%' })
+
+  var html_4530a557b62d48fcaad8cc2cdbf7f896 = $(
+    `<div id="html_4530a557b62d48fcaad8cc2cdbf7f896" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_eb07a6a15bd04c4ab126c871ad273e63.setContent(
+    html_4530a557b62d48fcaad8cc2cdbf7f896
+  )
+
+  marker_b1b001bff2e142f297671f0748c9f126.bindPopup(
+    popup_eb07a6a15bd04c4ab126c871ad273e63
+  )
+
+  var marker_8d6ebefa91c04292a5a180327b355daa = L.marker(
+    [40.7798996, -121.6009979],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_08d84fa390f8441d962bc800a0f90951 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_8d6ebefa91c04292a5a180327b355daa.setIcon(
+    icon_08d84fa390f8441d962bc800a0f90951
+  )
+
+  var popup_67fbd86554c04f99997d149ffee18064 = L.popup({ maxWidth: '100%' })
+
+  var html_1b82d7dd04a94ecfafef5f9ad4d864aa = $(
+    `<div id="html_1b82d7dd04a94ecfafef5f9ad4d864aa" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_67fbd86554c04f99997d149ffee18064.setContent(
+    html_1b82d7dd04a94ecfafef5f9ad4d864aa
+  )
+
+  marker_8d6ebefa91c04292a5a180327b355daa.bindPopup(
+    popup_67fbd86554c04f99997d149ffee18064
+  )
+
+  var marker_24c3e62d74cd4a5e8583ae9d511f7657 = L.marker(
+    [40.6799011, -121.5510025],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_96af71d4eb96499295b4965214989a2f = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_24c3e62d74cd4a5e8583ae9d511f7657.setIcon(
+    icon_96af71d4eb96499295b4965214989a2f
+  )
+
+  var popup_0caab6a2a9644140ab4d6189a62f31b5 = L.popup({ maxWidth: '100%' })
+
+  var html_e79c4f7ea16b4d6990f731823a578009 = $(
+    `<div id="html_e79c4f7ea16b4d6990f731823a578009" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_0caab6a2a9644140ab4d6189a62f31b5.setContent(
+    html_e79c4f7ea16b4d6990f731823a578009
+  )
+
+  marker_24c3e62d74cd4a5e8583ae9d511f7657.bindPopup(
+    popup_0caab6a2a9644140ab4d6189a62f31b5
+  )
+
+  var marker_f4c163e1c5c04074a8be0cf7cde6c45b = L.marker(
+    [40.6299019, -120.8310013],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_70d078197966419aae08b397fb83da05 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_f4c163e1c5c04074a8be0cf7cde6c45b.setIcon(
+    icon_70d078197966419aae08b397fb83da05
+  )
+
+  var popup_1b5439d0f18043059f2ad45a3cc513b7 = L.popup({ maxWidth: '100%' })
+
+  var html_6f1b5f65c471468784a2bc8a261b8c5a = $(
+    `<div id="html_6f1b5f65c471468784a2bc8a261b8c5a" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_1b5439d0f18043059f2ad45a3cc513b7.setContent(
+    html_6f1b5f65c471468784a2bc8a261b8c5a
+  )
+
+  marker_f4c163e1c5c04074a8be0cf7cde6c45b.bindPopup(
+    popup_1b5439d0f18043059f2ad45a3cc513b7
+  )
+
+  var marker_d291e98404a24aa08671259eb3c54141 = L.marker(
+    [40.4919014, -121.5009995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_62f882ec0c4a42af9df72a4388e8fcbc = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_d291e98404a24aa08671259eb3c54141.setIcon(
+    icon_62f882ec0c4a42af9df72a4388e8fcbc
+  )
+
+  var popup_2d6c5591df7b4e2189c00a143dfc302e = L.popup({ maxWidth: '100%' })
+
+  var html_4316192deea743da93215657fd4aa79b = $(
+    `<div id="html_4316192deea743da93215657fd4aa79b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_2d6c5591df7b4e2189c00a143dfc302e.setContent(
+    html_4316192deea743da93215657fd4aa79b
+  )
+
+  marker_d291e98404a24aa08671259eb3c54141.bindPopup(
+    popup_2d6c5591df7b4e2189c00a143dfc302e
+  )
+
+  var marker_0475693e733b44fdb25a2d42c83dc64b = L.marker(
+    [38.9698982, -122.7710037],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_ac6e12cac19e4c7aabff6cb38c99fed7 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_0475693e733b44fdb25a2d42c83dc64b.setIcon(
+    icon_ac6e12cac19e4c7aabff6cb38c99fed7
+  )
+
+  var popup_bd3755296cb6474d99d0b10a2f4af94a = L.popup({ maxWidth: '100%' })
+
+  var html_7e355e002dfe4c4298e17e7c65ec62cf = $(
+    `<div id="html_7e355e002dfe4c4298e17e7c65ec62cf" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_bd3755296cb6474d99d0b10a2f4af94a.setContent(
+    html_7e355e002dfe4c4298e17e7c65ec62cf
+  )
+
+  marker_0475693e733b44fdb25a2d42c83dc64b.bindPopup(
+    popup_bd3755296cb6474d99d0b10a2f4af94a
+  )
+
+  var marker_d6618b7fb2fe4b3ba01f274291333364 = L.marker(
+    [39.3749008, -119.7210007],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_fe45303fe04c4efebad503534ebd13db = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_d6618b7fb2fe4b3ba01f274291333364.setIcon(
+    icon_fe45303fe04c4efebad503534ebd13db
+  )
+
+  var popup_6c70286946924857bb3e0ac089751244 = L.popup({ maxWidth: '100%' })
+
+  var html_2dc58845f6174f9da40f0e5b42b0cf73 = $(
+    `<div id="html_2dc58845f6174f9da40f0e5b42b0cf73" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_6c70286946924857bb3e0ac089751244.setContent(
+    html_2dc58845f6174f9da40f0e5b42b0cf73
+  )
+
+  marker_d6618b7fb2fe4b3ba01f274291333364.bindPopup(
+    popup_6c70286946924857bb3e0ac089751244
+  )
+
+  var marker_3c0e4459a9c14102ac0ee4f4c082884f = L.marker(
+    [39.6500015, -107.0309982],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_f72da525f4bb41ff804287280d857472 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_3c0e4459a9c14102ac0ee4f4c082884f.setIcon(
+    icon_f72da525f4bb41ff804287280d857472
+  )
+
+  var popup_c0aa93cc36764f469d5f85394aad8c3a = L.popup({ maxWidth: '100%' })
+
+  var html_c1a1088d83444226b7648b4aa8a59932 = $(
+    `<div id="html_c1a1088d83444226b7648b4aa8a59932" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_c0aa93cc36764f469d5f85394aad8c3a.setContent(
+    html_c1a1088d83444226b7648b4aa8a59932
+  )
+
+  marker_3c0e4459a9c14102ac0ee4f4c082884f.bindPopup(
+    popup_c0aa93cc36764f469d5f85394aad8c3a
+  )
+
+  var marker_802ecdf3be7a4a439bb3f6a136b5fa75 = L.marker(
+    [37.9999008, -119.0309982],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_854fdaef233d452caf25772ac2ee95c3 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_802ecdf3be7a4a439bb3f6a136b5fa75.setIcon(
+    icon_854fdaef233d452caf25772ac2ee95c3
+  )
+
+  var popup_21d68aa55b074b09b882d64b581b1669 = L.popup({ maxWidth: '100%' })
+
+  var html_bbfd023d5fbf4d9faffe46c60c80cc33 = $(
+    `<div id="html_bbfd023d5fbf4d9faffe46c60c80cc33" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_21d68aa55b074b09b882d64b581b1669.setContent(
+    html_bbfd023d5fbf4d9faffe46c60c80cc33
+  )
+
+  marker_802ecdf3be7a4a439bb3f6a136b5fa75.bindPopup(
+    popup_21d68aa55b074b09b882d64b581b1669
+  )
+
+  var marker_a7ca7fb6a74f42619132b8ac6699b5c1 = L.marker(
+    [38.9700012, -112.5009995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_7ba197b3571c44cdaa8c57cf34e349fc = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_a7ca7fb6a74f42619132b8ac6699b5c1.setIcon(
+    icon_7ba197b3571c44cdaa8c57cf34e349fc
+  )
+
+  var popup_4b7471730b354bbe8ca688515ba399ee = L.popup({ maxWidth: '100%' })
+
+  var html_a318e47f938d400cb385f852bf95d5ed = $(
+    `<div id="html_a318e47f938d400cb385f852bf95d5ed" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_4b7471730b354bbe8ca688515ba399ee.setContent(
+    html_a318e47f938d400cb385f852bf95d5ed
+  )
+
+  marker_a7ca7fb6a74f42619132b8ac6699b5c1.bindPopup(
+    popup_4b7471730b354bbe8ca688515ba399ee
+  )
+
+  var marker_f2255f4114c14c90b2261d1833ca98a0 = L.marker(
+    [37.8799019, -119.0009995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_61582ca511274d02a8cb67aa30dd36e0 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_f2255f4114c14c90b2261d1833ca98a0.setIcon(
+    icon_61582ca511274d02a8cb67aa30dd36e0
+  )
+
+  var popup_1d2c8ad04a0a44e6ad7399b3e3bf0781 = L.popup({ maxWidth: '100%' })
+
+  var html_188ca332e7c545959f1134f833e10bc7 = $(
+    `<div id="html_188ca332e7c545959f1134f833e10bc7" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_1d2c8ad04a0a44e6ad7399b3e3bf0781.setContent(
+    html_188ca332e7c545959f1134f833e10bc7
+  )
+
+  marker_f2255f4114c14c90b2261d1833ca98a0.bindPopup(
+    popup_1d2c8ad04a0a44e6ad7399b3e3bf0781
+  )
+
+  var marker_5c4aac2727864f24beacddebd20ace30 = L.marker(
+    [37.6918983, -119.0210037],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_ed970c3cf01e4f608269e9bafd214955 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_5c4aac2727864f24beacddebd20ace30.setIcon(
+    icon_ed970c3cf01e4f608269e9bafd214955
+  )
+
+  var popup_382311bc63f242f5b4aecd9ac6d72eba = L.popup({ maxWidth: '100%' })
+
+  var html_3c402a0bd67a4ef9a7e51a6fba263819 = $(
+    `<div id="html_3c402a0bd67a4ef9a7e51a6fba263819" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_382311bc63f242f5b4aecd9ac6d72eba.setContent(
+    html_3c402a0bd67a4ef9a7e51a6fba263819
+  )
+
+  marker_5c4aac2727864f24beacddebd20ace30.bindPopup(
+    popup_382311bc63f242f5b4aecd9ac6d72eba
+  )
+
+  var marker_376704ee062b45688d48511cfd1d130a = L.marker(
+    [37.6999016, -118.8710022],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_8c80de3fbc60408ebf3300347c4350fc = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_376704ee062b45688d48511cfd1d130a.setIcon(
+    icon_8c80de3fbc60408ebf3300347c4350fc
+  )
+
+  var popup_ea8f07b64e58466ea2bf9e1395c7a8a9 = L.popup({ maxWidth: '100%' })
+
+  var html_0e55c3226709423da54ef3f2fa91ac6b = $(
+    `<div id="html_0e55c3226709423da54ef3f2fa91ac6b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_ea8f07b64e58466ea2bf9e1395c7a8a9.setContent(
+    html_0e55c3226709423da54ef3f2fa91ac6b
+  )
+
+  marker_376704ee062b45688d48511cfd1d130a.bindPopup(
+    popup_ea8f07b64e58466ea2bf9e1395c7a8a9
+  )
+
+  var marker_ee4861417189477dab206598834bd4bf = L.marker(
+    [37.5798988, -119.0510025],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_171f09c11c8c4c4d93dafed747cfbf02 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_ee4861417189477dab206598834bd4bf.setIcon(
+    icon_171f09c11c8c4c4d93dafed747cfbf02
+  )
+
+  var popup_bacf4d0885654610b3109f3e31468279 = L.popup({ maxWidth: '100%' })
+
+  var html_b91b599635ed4fb48648ad2a77077ae9 = $(
+    `<div id="html_b91b599635ed4fb48648ad2a77077ae9" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_bacf4d0885654610b3109f3e31468279.setContent(
+    html_b91b599635ed4fb48648ad2a77077ae9
+  )
+
+  marker_ee4861417189477dab206598834bd4bf.bindPopup(
+    popup_bacf4d0885654610b3109f3e31468279
+  )
+
+  var marker_ae632ea287064147a70b2b3f0664e555 = L.marker(
+    [37.0199013, -117.4509964],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_6109c5ee8abc4873a80e61a1830fd0e3 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_ae632ea287064147a70b2b3f0664e555.setIcon(
+    icon_6109c5ee8abc4873a80e61a1830fd0e3
+  )
+
+  var popup_bac879aab62546198d05fd7d6985436e = L.popup({ maxWidth: '100%' })
+
+  var html_f03695522cbf43a2b922a320922458e6 = $(
+    `<div id="html_f03695522cbf43a2b922a320922458e6" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_bac879aab62546198d05fd7d6985436e.setContent(
+    html_f03695522cbf43a2b922a320922458e6
+  )
+
+  marker_ae632ea287064147a70b2b3f0664e555.bindPopup(
+    popup_bac879aab62546198d05fd7d6985436e
+  )
+
+  var marker_f9abaf7442e44563a23496b365cb62e1 = L.marker(
+    [37.5800018, -112.6709976],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_d051c1b85ff841c3950cdb522ef7fae6 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_f9abaf7442e44563a23496b365cb62e1.setIcon(
+    icon_d051c1b85ff841c3950cdb522ef7fae6
+  )
+
+  var popup_ffc01c09b416427fa339166589975a37 = L.popup({ maxWidth: '100%' })
+
+  var html_4bf41820497a4525b41d6668af96cc0b = $(
+    `<div id="html_4bf41820497a4525b41d6668af96cc0b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_ffc01c09b416427fa339166589975a37.setContent(
+    html_4bf41820497a4525b41d6668af96cc0b
+  )
+
+  marker_f9abaf7442e44563a23496b365cb62e1.bindPopup(
+    popup_ffc01c09b416427fa339166589975a37
+  )
+
+  var marker_daceb55052cb458f87b7b98179118cb4 = L.marker(
+    [37.257, -113.6210022],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_a69098169cec4cddb3425857d534fd23 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_daceb55052cb458f87b7b98179118cb4.setIcon(
+    icon_a69098169cec4cddb3425857d534fd23
+  )
+
+  var popup_fb63877a92c047e2a326f690eb8ca05b = L.popup({ maxWidth: '100%' })
+
+  var html_86a2928dc5434ab5aeb2fdb93d80acdd = $(
+    `<div id="html_86a2928dc5434ab5aeb2fdb93d80acdd" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_fb63877a92c047e2a326f690eb8ca05b.setContent(
+    html_86a2928dc5434ab5aeb2fdb93d80acdd
+  )
+
+  marker_daceb55052cb458f87b7b98179118cb4.bindPopup(
+    popup_fb63877a92c047e2a326f690eb8ca05b
+  )
+
+  var marker_d27ce71627fb43a4a214f0d04650d9a4 = L.marker(
+    [37.3279991, -112.401001],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_38aa5e8a918f47ada486b325c5b8a186 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_d27ce71627fb43a4a214f0d04650d9a4.setIcon(
+    icon_38aa5e8a918f47ada486b325c5b8a186
+  )
+
+  var popup_0211e3c60f684529976275aae7a7e0a5 = L.popup({ maxWidth: '100%' })
+
+  var html_0b99adc6baca490894606eea98880b9e = $(
+    `<div id="html_0b99adc6baca490894606eea98880b9e" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_0211e3c60f684529976275aae7a7e0a5.setContent(
+    html_0b99adc6baca490894606eea98880b9e
+  )
+
+  marker_d27ce71627fb43a4a214f0d04650d9a4.bindPopup(
+    popup_0211e3c60f684529976275aae7a7e0a5
+  )
+
+  var marker_11735e57d5e34ab483366dcfb68a6a35 = L.marker(
+    [36.3578987, -118.3209991],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_4b267fb5c4444b9db790db90e223fc28 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_11735e57d5e34ab483366dcfb68a6a35.setIcon(
+    icon_4b267fb5c4444b9db790db90e223fc28
+  )
+
+  var popup_adff3b84b2394e3dac1c4d54e86679ee = L.popup({ maxWidth: '100%' })
+
+  var html_c2206aa693c24022a345d555dc3bb30b = $(
+    `<div id="html_c2206aa693c24022a345d555dc3bb30b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_adff3b84b2394e3dac1c4d54e86679ee.setContent(
+    html_c2206aa693c24022a345d555dc3bb30b
+  )
+
+  marker_11735e57d5e34ab483366dcfb68a6a35.bindPopup(
+    popup_adff3b84b2394e3dac1c4d54e86679ee
+  )
+
+  var marker_4689fb42cce4427a90a597f24d35dde8 = L.marker(
+    [36.0298996, -117.8209991],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_7495aeb27aaf4edca5745b49ad60d5a0 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_4689fb42cce4427a90a597f24d35dde8.setIcon(
+    icon_7495aeb27aaf4edca5745b49ad60d5a0
+  )
+
+  var popup_a984c34a11494049b614c5dc94789da0 = L.popup({ maxWidth: '100%' })
+
+  var html_c0ef82cb28614a6fb4adcd652c732a3e = $(
+    `<div id="html_c0ef82cb28614a6fb4adcd652c732a3e" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_a984c34a11494049b614c5dc94789da0.setContent(
+    html_c0ef82cb28614a6fb4adcd652c732a3e
+  )
+
+  marker_4689fb42cce4427a90a597f24d35dde8.bindPopup(
+    popup_a984c34a11494049b614c5dc94789da0
+  )
+
+  var marker_373445e6cdc64d69897a89fb241dfc3a = L.marker(
+    [36.3800011, -113.1309967],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_b022d3e0659b4966bb0482591e276ac0 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_373445e6cdc64d69897a89fb241dfc3a.setIcon(
+    icon_b022d3e0659b4966bb0482591e276ac0
+  )
+
+  var popup_3190e6c5de5f4a009f15d9420c552000 = L.popup({ maxWidth: '100%' })
+
+  var html_2e68d9ade08d475ea5914f6abad9425d = $(
+    `<div id="html_2e68d9ade08d475ea5914f6abad9425d" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_3190e6c5de5f4a009f15d9420c552000.setContent(
+    html_2e68d9ade08d475ea5914f6abad9425d
+  )
+
+  marker_373445e6cdc64d69897a89fb241dfc3a.bindPopup(
+    popup_3190e6c5de5f4a009f15d9420c552000
+  )
+
+  var marker_e2cd1de1810042ca8d79c02d9bc83ae5 = L.marker(
+    [34.75, -116.6210022],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_d5065e26ee5a46308c9ece6568372cce = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_e2cd1de1810042ca8d79c02d9bc83ae5.setIcon(
+    icon_d5065e26ee5a46308c9ece6568372cce
+  )
+
+  var popup_acd295ae56f2444d881b40eb404ac466 = L.popup({ maxWidth: '100%' })
+
+  var html_780d0a03ec1f430c950ed67cd49f2611 = $(
+    `<div id="html_780d0a03ec1f430c950ed67cd49f2611" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_acd295ae56f2444d881b40eb404ac466.setContent(
+    html_780d0a03ec1f430c950ed67cd49f2611
+  )
+
+  marker_e2cd1de1810042ca8d79c02d9bc83ae5.bindPopup(
+    popup_acd295ae56f2444d881b40eb404ac466
+  )
+
+  var marker_5034c86945a942a2add7c1dbf0d8aade = L.marker(
+    [35.8699989, -106.5709991],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_fbe5986da19146a9a064ea91e9cf5ce2 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_5034c86945a942a2add7c1dbf0d8aade.setIcon(
+    icon_fbe5986da19146a9a064ea91e9cf5ce2
+  )
+
+  var popup_5fdace3ed13f418fa26b55fb0bb3f0c9 = L.popup({ maxWidth: '100%' })
+
+  var html_39270b2fc9064210992db7e5d3c8b9c7 = $(
+    `<div id="html_39270b2fc9064210992db7e5d3c8b9c7" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_5fdace3ed13f418fa26b55fb0bb3f0c9.setContent(
+    html_39270b2fc9064210992db7e5d3c8b9c7
+  )
+
+  marker_5034c86945a942a2add7c1dbf0d8aade.bindPopup(
+    popup_5fdace3ed13f418fa26b55fb0bb3f0c9
+  )
+
+  var marker_1c13169556954d07a9be890e6bf6bc43 = L.marker(
+    [35.3699989, -111.5009995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_6cde1f0b70f741d2a23ce81424cf385c = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_1c13169556954d07a9be890e6bf6bc43.setIcon(
+    icon_6cde1f0b70f741d2a23ce81424cf385c
+  )
+
+  var popup_87c77e08b1f4452b8abf62c6d89a4c28 = L.popup({ maxWidth: '100%' })
+
+  var html_e07113afe0d74d66bbb50c3a76cac89b = $(
+    `<div id="html_e07113afe0d74d66bbb50c3a76cac89b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_87c77e08b1f4452b8abf62c6d89a4c28.setContent(
+    html_e07113afe0d74d66bbb50c3a76cac89b
+  )
+
+  marker_1c13169556954d07a9be890e6bf6bc43.bindPopup(
+    popup_87c77e08b1f4452b8abf62c6d89a4c28
+  )
+
+  var marker_434647091a754304bc54cd8993a97aa3 = L.marker(
+    [34.5499992, -115.7809982],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_eb10146a167a42fc8a28914f8e44ef46 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_434647091a754304bc54cd8993a97aa3.setIcon(
+    icon_eb10146a167a42fc8a28914f8e44ef46
+  )
+
+  var popup_cfd5aa3711484b7ca9fb810d6a924823 = L.popup({ maxWidth: '100%' })
+
+  var html_5cb1fb8bcc704e0c8fe5cd9d618dd6b5 = $(
+    `<div id="html_5cb1fb8bcc704e0c8fe5cd9d618dd6b5" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_cfd5aa3711484b7ca9fb810d6a924823.setContent(
+    html_5cb1fb8bcc704e0c8fe5cd9d618dd6b5
+  )
+
+  marker_434647091a754304bc54cd8993a97aa3.bindPopup(
+    popup_cfd5aa3711484b7ca9fb810d6a924823
+  )
+
+  var marker_a41820ba6bd340318a4aa41a94690ff5 = L.marker(
+    [34.7999992, -108.0009995],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_e7ddab08613f44e59c9be2731a2b97f6 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_a41820ba6bd340318a4aa41a94690ff5.setIcon(
+    icon_e7ddab08613f44e59c9be2731a2b97f6
+  )
+
+  var popup_3235114e8ef54764b63bb7e5d7cf0d28 = L.popup({ maxWidth: '100%' })
+
+  var html_cc5479e743444a538b2d6c6a2032d70b = $(
+    `<div id="html_cc5479e743444a538b2d6c6a2032d70b" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_3235114e8ef54764b63bb7e5d7cf0d28.setContent(
+    html_cc5479e743444a538b2d6c6a2032d70b
+  )
+
+  marker_a41820ba6bd340318a4aa41a94690ff5.bindPopup(
+    popup_3235114e8ef54764b63bb7e5d7cf0d28
+  )
+
+  var marker_0224d95d2420485b8300e6edcc49f60c = L.marker(
+    [33.7801018, -105.9309998],
+    {}
+  ).addTo(feature_group_9b8450531a59465fbd3fb1756e531f69)
+
+  var icon_52e0f452c847459a87b088b7b62fe121 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'fa-fire',
+    iconColor: 'yellow',
+    markerColor: 'red',
+    prefix: 'fa',
+  })
+  marker_0224d95d2420485b8300e6edcc49f60c.setIcon(
+    icon_52e0f452c847459a87b088b7b62fe121
+  )
+
+  var popup_5d9712102a88474699b3ceb4295b301b = L.popup({ maxWidth: '100%' })
+
+  var html_71324b28ae6c419984579dc9a6847c82 = $(
+    `<div id="html_71324b28ae6c419984579dc9a6847c82" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_5d9712102a88474699b3ceb4295b301b.setContent(
+    html_71324b28ae6c419984579dc9a6847c82
+  )
+
+  marker_0224d95d2420485b8300e6edcc49f60c.bindPopup(
+    popup_5d9712102a88474699b3ceb4295b301b
   )
 </script>
