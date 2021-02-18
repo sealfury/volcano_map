@@ -7,6 +7,10 @@ lat = list(data["LAT"])
 lon = list(data["LON"])
 elev = list(data["ELEV"])
 
+html = """<h4>Volcano Information:</h4>
+Height: %s m 
+"""
+
 
 def colorize(elevation):
     if elevation < 1200:
@@ -17,24 +21,23 @@ def colorize(elevation):
         return "orange"
 
 
-html = """<h4>Volcano Information:</h4>
-Height: %s m 
-"""
-
 map = folium.Map(location=stockholm, zoom_start=4, tiles="Stamen Watercolor")
 
-fg = folium.FeatureGroup(name="My Map")
+fgv = folium.FeatureGroup(name="Volcanoes")
 
 for lt, ln, el in zip(lat, lon, elev):
     iframe = folium.IFrame(html=html % str(el), width=200, height=100)
-    fg.add_child(
+    fgv.add_child(
         folium.Marker(
             location=[lt, ln],
             popup=folium.Popup(iframe),
             icon=folium.Icon(color=colorize(el), icon="fa-fire", prefix="fa"),
         )
     )
-fg.add_child(
+
+fgp = folium.FeatureGroup(name="Population")
+
+fgp.add_child(
     folium.GeoJson(
         data=open("data/world.json", "r", encoding="utf-8-sig").read(),
         style_function=lambda s: {
@@ -47,5 +50,8 @@ fg.add_child(
     )
 )
 
-map.add_child(fg)
+map.add_child(fgv)
+map.add_child(fgp)
+map.add_child(folium.LayerControl())
+
 map.save("Map1.html")
