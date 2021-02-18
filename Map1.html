@@ -60,7 +60,7 @@
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
   />
   <style>
-    #map_83903c4feb184e2a9a656bbc9f98b202 {
+    #map_00c7d656dbcb44df9f53950a28b94ffb {
       position: relative;
       width: 100%;
       height: 100%;
@@ -70,13 +70,13 @@
   </style>
 </head>
 <body>
-  <div class="folium-map" id="map_83903c4feb184e2a9a656bbc9f98b202"></div>
+  <div class="folium-map" id="map_00c7d656dbcb44df9f53950a28b94ffb"></div>
 </body>
 <script>
-  var map_83903c4feb184e2a9a656bbc9f98b202 = L.map(
-    'map_83903c4feb184e2a9a656bbc9f98b202',
+  var map_00c7d656dbcb44df9f53950a28b94ffb = L.map(
+    'map_00c7d656dbcb44df9f53950a28b94ffb',
     {
-      center: [64.1477, -21.93724],
+      center: [64.1477, -21.93274],
       crs: L.CRS.EPSG3857,
       zoom: 4,
       zoomControl: true,
@@ -84,11 +84,11 @@
     }
   )
 
-  var tile_layer_7ff538abaf88458388489abf2153691c = L.tileLayer(
-    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+  var tile_layer_e16f1966bf34483dbb400fe1d52eb45d = L.tileLayer(
+    'https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg',
     {
       attribution:
-        'Data by \u0026copy; \u003ca href="http://openstreetmap.org"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href="http://www.openstreetmap.org/copyright"\u003eODbL\u003c/a\u003e.',
+        'Map tiles by \u003ca href="http://stamen.com"\u003eStamen Design\u003c/a\u003e, under \u003ca href="http://creativecommons.org/licenses/by/3.0"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href="http://openstreetmap.org"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href="http://creativecommons.org/licenses/by-sa/3.0"\u003eCC BY SA\u003c/a\u003e.',
       detectRetina: false,
       maxNativeZoom: 18,
       maxZoom: 18,
@@ -98,5 +98,34 @@
       subdomains: 'abc',
       tms: false,
     }
-  ).addTo(map_83903c4feb184e2a9a656bbc9f98b202)
+  ).addTo(map_00c7d656dbcb44df9f53950a28b94ffb)
+
+  var marker_ee4891c5f49b4ee595f9cf40c58dec45 = L.marker(
+    [64.1477, -21.93274],
+    {}
+  ).addTo(map_00c7d656dbcb44df9f53950a28b94ffb)
+
+  var icon_65fb51b84068491a82de917bcf9f2b31 = L.AwesomeMarkers.icon({
+    extraClasses: 'fa-rotate-0',
+    icon: 'info-sign',
+    iconColor: 'white',
+    markerColor: 'green',
+    prefix: 'glyphicon',
+  })
+  marker_ee4891c5f49b4ee595f9cf40c58dec45.setIcon(
+    icon_65fb51b84068491a82de917bcf9f2b31
+  )
+
+  var popup_f2b9a21f9df7432f83bec5b932c70ec1 = L.popup({ maxWidth: '100%' })
+
+  var html_435121b474fa483b912447c13fa37101 = $(
+    `<div id="html_435121b474fa483b912447c13fa37101" style="width: 100.0%; height: 100.0%;">Interested in volcanoes?</div>`
+  )[0]
+  popup_f2b9a21f9df7432f83bec5b932c70ec1.setContent(
+    html_435121b474fa483b912447c13fa37101
+  )
+
+  marker_ee4891c5f49b4ee595f9cf40c58dec45.bindPopup(
+    popup_f2b9a21f9df7432f83bec5b932c70ec1
+  )
 </script>
