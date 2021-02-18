@@ -1,11 +1,19 @@
 import folium
 import pandas
 
+stockholm = [59.33258, 18.0649]
 data = pandas.read_csv("data/Volcanoes.txt")
 lat = list(data["LAT"])
 lon = list(data["LON"])
 elev = list(data["ELEV"])
-stockholm = [59.33258, 18.0649]
+
+def colorize(elevation):
+    if elevation < 1200:
+        return 'green'
+    elif elevation > 2800:
+        return 'red'
+    else:
+        return 'orange'
 
 html = """<h4>Volcano Information:</h4>
 Height: %s m 
@@ -21,7 +29,7 @@ for lt, ln, el in zip(lat, lon, elev):
             location=[lt, ln],
             popup=folium.Popup(iframe),
             icon=folium.Icon(
-                color="red", icon_color="yellow", icon="fa-fire", prefix="fa"
+                color=colorize(el), icon="fa-fire", prefix="fa"
             ),
         )
     )
